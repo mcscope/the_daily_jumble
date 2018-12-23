@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package pp;
+
+service PingService {
+  rpc Ping (PingMessage) returns (PongMessage) {}
+}
+
+service PongService {
+  rpc Pong (PongMessage) returns (PingMessage) {}
+}
+
+message PongMessage {
+    string message = 1;
+}
+
+message PingMessage {
+    string message = 1;
+}

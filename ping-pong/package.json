@@ -1,0 +1,16 @@
+{
+  "name": "time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.3.0",
+    "grpc": "^1.16.1",
+    "grpc-promise": "^1.4.0"
+  }
+}
